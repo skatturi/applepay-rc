@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://www.datatrans.ch") // remove this or adjust it to your needs
+//@CrossOrigin(origins = "https://www.datatrans.ch") // remove this or adjust it to your needs
 public class ApplePayController {
 
     private static final Logger logger = LoggerFactory.getLogger(ApplePayController.class);
